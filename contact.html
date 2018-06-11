@@ -29,19 +29,13 @@
     <li><a href="#">Portfolio</a></li>
   </ul>
   
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="./public/images/selfie.JPG">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Lina Kichen<i class="material-icons right">About Me</i></span>
-      <p><a href="#">Contact Me</a></p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-    </div>
-  </div>
+  <form action="/action_page.php" method="get">
+    First name: <input type="text" name="firstname"/><br>
+    Last name: <input type="text" name="lastname"/><br>
+    Email: <input type="email" name="email"/><br>
+    Message: <textarea placeholder="Leave your message here..." rows="4" cols="50"></textarea> 
+    <input type="submit" value="Submit">
+  </form>
   
   <footer class="page-footer">
     <div class="footer-copyright">

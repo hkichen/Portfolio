@@ -1,8 +1,15 @@
 body {
   margin: 0 auto;
   max-width: 85%;
-  background-image: url(../public/images/bigSky.jpeg);
-  background: #bdd8d1;
+  /* background-image: url(../public/images/bigSky.jpeg); */
+}
+
+nav {
+  background-color: transparent;
+}
+
+.page-footer, .footer-copyright {
+  background-color: transparent;
 }
 
 .brand-logo {

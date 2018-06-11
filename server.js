@@ -11,6 +11,17 @@ app.use(bodyParser.json());
 app.get('/', function(req,res){
   res.sendfile(__dirname + '/home.html');
  }); 
+app.get("/contact", function(req, res) {
+  res.sendFile(__dirname + '/contact.html')
+}) 
+app.get("/portfolio", function(req, res) {
+  res.sendFile(__dirname + '/portfolio.html')
+}) 
+
+
+
+
+
 
 app.listen(PORT, function() {
   console.log("App listening on PORT " + PORT);
