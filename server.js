@@ -9,8 +9,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.get('/', function(req,res){
-  res.sendfile(__dirname + '/home.html');
- }); 
+  res.sendfile(__dirname + '/coverPage.html');
+ });
+ app.get("/bio", function(req, res) {
+  res.sendFile(__dirname + '/bio.html')
+})
 app.get("/contact", function(req, res) {
   res.sendFile(__dirname + '/contact.html')
 }) 
