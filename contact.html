@@ -3,53 +3,64 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Home</title>
+  <title>Contact</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <link rel="stylesheet" type="text/css" href="main.css" />
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="form.css" />
+  
 </head>
-<body>
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Lina Kichen</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Portfolio</a></li>
-      </ul>
-    </div>
-  </nav>
-  
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">Portfolio</a></li>
-  </ul>
-  
-  <form action="/action_page.php" method="get">
-    First name: <input type="text" name="firstname"/><br>
-    Last name: <input type="text" name="lastname"/><br>
-    Email: <input type="email" name="email"/><br>
-    Message: <textarea placeholder="Leave your message here..." rows="4" cols="50"></textarea> 
-    <input type="submit" value="Submit">
-  </form>
-  
-  <footer class="page-footer">
-    <div class="footer-copyright">
-      <div class="container">
-        © 2018 Lina Kichen
-        <a class="grey-text text-lighten-4 right" href="#">Home</a>
+
+<body background="./images/bigSky.jpeg">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2 col-sm-4 sidebar1">
+        <div class="logo">
+          <img src="./images/selfie.JPG" class="img-responsive center-block" alt="Logo">
+        </div>
+        <br>
+        <div class="left-navigation">
+          <ul class="list">
+            <h3><strong>Navigation</strong></h3>
+            <li><a href="/">Home</a></li>
+            <li><a href="/bio">About Me</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="/portfolio">Projects</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>            
+        </div>
+      </div>
+
+      <div class="col-md-10 col-sm-8 main-content" id="contactPage">
+        <div class="contentTitle">
+          <h2 id="formTitle">Contact</h2>
+        </div>
+        <div class="formContent">
+          <form action="/action_page.php">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name...">
+            <br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Email...">
+            <br>
+            <label for="message">Message</label>
+            <textarea id="message" name="subject" placehokder="Write a message..." style="height:200px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
       </div>
     </div>
-  </footer>
-
+  </body>
+  
 </body>
 
 <tail>
-
   <script>
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
