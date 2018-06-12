@@ -45,40 +45,11 @@ body {
 	font-size: 25pt;
 	padding: 13px 15px 13px 12px;
 }
-.navbar-twitch .tooltip,
-.navbar-twitch .tooltip .tooltip-inner {
-	max-width: auto;
-	white-space:nowrap;
-}
-.navbar-twitch-toggle {
-	position: fixed;
-	top: 5px;
-	left: 20px;
-}
-.navbar-twitch ~ .navbar-twitch-toggle > .nav-open {
-	display: inline-block;
-}
-.navbar-twitch ~ .navbar-twitch-toggle > .nav-close {
-	display: none;
-}
-.navbar-twitch.open ~ .navbar-twitch-toggle {
-	left: 245px;
-}
-.navbar-twitch.open ~ .navbar-twitch-toggle > .nav-open {
-	display: none;
-}
-.navbar-twitch.open ~ .navbar-twitch-toggle > .nav-close {
-	display: inline-block;
-}
 
 .navbar {
     background-image: none !important;
 }
 
-.container {
-    display: inline-block;
-    font: #ffffff;
-}
 .banner-text {
     position: absolute;
     top: 25%;
@@ -145,4 +116,9 @@ h1 {
         -webkit-transform: translateZ(20px);
         -moz-transform: translateZ(20px);
     }
+}
+
+.content {
+    padding-left: 30px;
+    padding-top: 25px;
 }
