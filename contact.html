@@ -36,36 +36,48 @@
           </ul>            
         </div>
       </div>
-
+      
       <div class="col-md-10 col-sm-8 main-content" id="contactPage">
-        <div class="contentTitle">
-          <h2 id="formTitle">Contact</h2>
-        </div>
-        <div class="formContent">
-          <form action="/action_page.php">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Name...">
-            <br>
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Email...">
-            <br>
-            <label for="message">Message</label>
-            <textarea id="message" name="subject" placehokder="Write a message..." style="height:200px"></textarea>
-            <input type="submit" value="Submit">
-          </form>
+        <section id="contact">
+          <div class="section-content">
+            <h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with me</span></h1>
+            <h3>If you would like to get in touch with me, <br>please fill out this form below.<br>I would love to hear feedback from you.</h3>
+          </div>
+          <div class="contact-section">
+            <div class="container">
+              <form>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputUsername">Name</label>
+                    <input name="name" type="text" class="form-control" id="" placeholder="First and Last Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail">Email Address</label>
+                    <input name="email" type="email" class="form-control" id="exampleInputEmail" placeholder="Enter your email">
+                  </div>	
+                  <div class="form-group">
+                    <label for ="description"> Message</label>
+                    <textarea  name="message class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                  </div>
+                  <div>
+                    <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
+                  </div> 
+                </div>
+              </form>
+            </div>
+          </section>
         </div>
       </div>
-    </div>
+    </body>
+    
   </body>
   
-</body>
-
-<tail>
-  <script>
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"
-  </script>
-  <script src="app.js"></script>
-</tail>
-</html>
+  <tail>
+    <script>
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    </script>
+    <script src="app.js"></script>
+  </tail>
+  </html>
