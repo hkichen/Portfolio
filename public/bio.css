@@ -1,0 +1,23 @@
+#aboutMe {
+  color: #ffffff;
+
+}
+.pic {
+  margin-top: 100px;
+}
+
+.bioInfo {
+  margin-top: 100px;
+  padding: 30px;
+  font-size: 24px;
+  text-align: left;
+  color: #ffffff;
+  background-color: rgb(68,55,111,.7);
+  border-radius: 3%;
+  line-height: 1.4;
+}
+
+#selfie {
+  max-width: 100%;
+  border-radius: 30%;
+}
