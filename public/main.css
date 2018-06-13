@@ -8,6 +8,9 @@ a, a:hover {
   color: #ffffff;
 }
 
+.left-navigation {
+  margin-top: 120px;
+}
 .sidebar1 {
   background: #F17153;
   /* For browsers that do not support gradients */
