@@ -35,13 +35,12 @@ a, a:hover {
   color: #fff;
   list-style: none;
   padding-left: 0px;
-  font-size: 18px;
 }
 .list::first-line {
   color: rgba(255, 255, 255, 0.5);
 }
 .list> li, h5 {
-  padding: 5px 0px 5px 15px;
+  padding: 5px 0px 5px 40px;
 }
 .list>li:hover {
   background-color: rgba(255, 255, 255, 0.2);
@@ -49,37 +48,6 @@ a, a:hover {
   color: white;
   font-weight: bolder;
   padding-left: 35px;
-
 }.main-content{
 text-align:center;
-}
-
-h3 {
-  padding-left: 15px;
-}
-
-.img-responsive {
-  max-width: 160px
-}
-
-.contentTitle {
-  text-align: left;
-}
-
-/* Formatting for Masonry Grid */
-.gal {
-	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-	  
-	
-	}	
-	.gal img{ width: 100%; padding: 7px 0;}
-
-@media (max-width: 500px) {
-	.gal {
-    -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-  }
 }
